@@ -104,7 +104,7 @@ public class BaseUtils {
 	}
 
 	// 配置文件路径：spring/placeholder.properties
-	public static final ResourceBundle placeholder = ResourceBundle.getBundle("spring.placeholder");
+	public static final ResourceBundle placeholder = ResourceBundle.getBundle("placeholder");
 	
 	public static String getPropertyString(String key) {
 		try {
